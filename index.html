@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Charan Varkala | AWS DevOps Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans leading-relaxed">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-slate-900/90 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-sky-400">SCV<span class="text-white">.devops</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-sky-400 transition">About</a>
+                <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+                <a href="#experience" class="hover:text-sky-400 transition">Experience</a>
+                <a href="#education" class="hover:text-sky-400 transition">Education</a>
+                <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col items-start justify-center min-h-[85vh]">
+        <p class="text-sky-400 font-mono mb-2">Hi, my name is</p>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4">Sai Charan Varkala.</h1>
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-400 mb-6">I automate cloud infrastructure & CI/CD.</h2>
+        <p class="text-slate-300 max-w-2xl text-lg mb-8">
+            I'm an <span class="text-sky-400 font-semibold">AWS DevOps Engineer</span> based in London, UK, with over 2 years of experience specializing in cloud infrastructure, automation, and release management. Proven track record of migrating production environments to AWS and orchestrating microservices via Kubernetes and Docker, achieving <span class="text-white font-semibold">99.9% system uptime</span>.
+        </p>
+        <div class="flex flex-wrap gap-4">
+            <a href="mailto:varkalasaicharan@gmail.com" class="bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold px-6 py-3 rounded-lg transition">
+                <i class="fas fa-envelope mr-2"></i>Get In Touch
+            </a>
+            <a href="https://github.com/SAICHARANVARKALA" target="_blank" class="border border-slate-700 hover:border-sky-400 px-6 py-3 rounded-lg transition">
+                <i class="fab fa-github mr-2"></i>GitHub Profile
+            </a>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-20 bg-slate-800/50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="text-sky-400 font-mono text-xl mr-3">01.</span> Technical Skills
+            </h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- AWS Cloud -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-sky-500/50 transition">
+                    <div class="text-sky-400 text-2xl mb-3"><i class="fab fa-aws"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Cloud (AWS)</h4>
+                    <p class="text-slate-400 text-sm">EC2, S3, EBS, VPC, ELB, Route 53, IAM, CloudWatch, CloudFormation, Lambda, EKS, ECR, RDS, Auto Scaling</p>
+                </div>
+                <!-- IaC -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-sky-500/50 transition">
+                    <div class="text-sky-400 text-2xl mb-3"><i class="fas fa-code-branch"></i></div>
+                    <h4 class="text-xl font-bold mb-2">IaC & Config Management</h4>
+                    <p class="text-slate-400 text-sm">Terraform (Reusable Modules, S3 Remote State, DynamoDB Locking), AWS CloudFormation, Ansible</p>
+                </div>
+                <!-- Containers -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-sky-500/50 transition">
+                    <div class="text-sky-400 text-2xl mb-3"><i class="fab fa-docker"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Containers & Orchestration</h4>
+                    <p class="text-slate-400 text-sm">Kubernetes (Amazon EKS, Pod Management, Cluster Scaling), Docker (Engine, Hub, Compose)</p>
+                </div>
+                <!-- CI/CD -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-sky-500/50 transition">
+                    <div class="text-sky-400 text-2xl mb-3"><i class="fas fa-infinity"></i></div>
+                    <h4 class="text-xl font-bold mb-2">CI/CD & Version Control</h4>
+                    <p class="text-slate-400 text-sm">Jenkins, GitLab CI, GitOps, Maven, GitHub, Bitbucket, Nexus, JFrog Artifactory</p>
+                </div>
+                <!-- Scripting -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-sky-500/50 transition">
+                    <div class="text-sky-400 text-2xl mb-3"><i class="fab fa-python"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Scripting & Languages</h4>
+                    <p class="text-slate-400 text-sm">Python (Boto3 / AWS API Automation), Bash, YAML, Groovy</p>
+                </div>
+                <!-- Monitoring -->
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-sky-500/50 transition">
+                    <div class="text-sky-400 text-2xl mb-3"><i class="fas fa-chart-line"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Monitoring & Quality</h4>
+                    <p class="text-slate-400 text-sm">Prometheus, Grafana, AWS CloudWatch, ELK Stack, Splunk, SonarQube, Veracode</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
+        <h3 class="text-3xl font-bold mb-12 flex items-center">
+            <span class="text-sky-400 font-mono text-xl mr-3">02.</span> Professional Experience
+        </h3>
+
+        <div class="space-y-12 border-l-2 border-slate-800 pl-6 ml-2">
+            <!-- Job 1 -->
+            <div class="relative">
+                <div class="absolute -left-[33px] top-1 w-4 h-4 rounded-full bg-sky-400"></div>
+                <h4 class="text-2xl font-bold text-white">AWS DevOps Engineer <span class="text-sky-400">@ QA Point</span></h4>
+                <p class="text-slate-400 font-mono text-sm mb-4">Jan 2026 – Aug 2026 | London, UK</p>
+                <ul class="list-disc list-inside text-slate-300 space-y-2">
+                    <li>Provisioned scalable AWS architectures (EC2, EKS, IAM, Route 53, S3, VPC) using Terraform, decreasing setup time by <span class="text-sky-400 font-semibold">20%</span>.</li>
+                    <li>Designed continuous delivery pipelines for microservices integrating GitHub, Jenkins, Docker, and SonarQube for immediate developer feedback.</li>
+                    <li>Managed AWS EKS clusters and integrated Prometheus & Grafana for advanced observability while transitioning towards GitOps principles.</li>
+                    <li>Created complex IAM policies and roles adhering strictly to the principle of least privilege.</li>
+                    <li>Sustained <span class="text-sky-400 font-semibold">99.9% system uptime</span> while migrating legacy systems to AWS.</li>
+                </ul>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="relative">
+                <div class="absolute -left-[33px] top-1 w-4 h-4 rounded-full bg-slate-600"></div>
+                <h4 class="text-2xl font-bold text-white">System Engineer - Cloud & DevOps <span class="text-sky-400">@ Tata Consultancy Services (TCS)</span></h4>
+                <p class="text-slate-400 font-mono text-sm mb-4">Apr 2021 – Jul 2022 | Hyderabad, India</p>
+                <ul class="list-disc list-inside text-slate-300 space-y-2">
+                    <li>Engineered scalable CI/CD pipelines using Jenkins on EC2 master/build-agent nodes, cutting parallel build times by <span class="text-sky-400 font-semibold">30%</span>.</li>
+                    <li>Authored reusable Terraform modules utilizing Amazon S3 for remote state management and DynamoDB for state locking.</li>
+                    <li>Enforced code quality with SonarQube in Jenkins pipelines prior to pushing images to AWS Elastic Container Registry (ECR).</li>
+                    <li>Developed Python and Boto3 scripts to clean up orphaned Docker images and unattached EBS volumes, reducing monthly cloud storage costs.</li>
+                    <li>Orchestrated server provisioning and configuration management across EC2 fleets using Ansible, eliminating manual patching.</li>
+                    <li>Configured infrastructure monitoring using AWS CloudWatch, Splunk, and Amazon SNS alerts.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-slate-800/50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="text-sky-400 font-mono text-xl mr-3">03.</span> Education
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                    <h4 class="text-xl font-bold text-white">MSc in Advanced Computer Science</h4>
+                    <p class="text-sky-400 font-medium">University of Hertfordshire, UK</p>
+                    <p class="text-slate-400 font-mono text-sm mt-2">Jan 2024 – Feb 2026</p>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                    <h4 class="text-xl font-bold text-white">B.Tech in Computer Science</h4>
+                    <p class="text-sky-400 font-medium">Guru Nanak Institutions, India</p>
+                    <p class="text-slate-400 font-mono text-sm mt-2">Jul 2016 – May 2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <p class="text-sky-400 font-mono mb-2">04. What's Next?</p>
+        <h3 class="text-4xl font-bold mb-6">Get In Touch</h3>
+        <p class="text-slate-300 mb-8 max-w-xl mx-auto">
+            I am currently open to AWS DevOps, Cloud Engineering, and Platform Engineering roles. Feel free to reach out via email or phone!
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4 text-slate-300 mb-8">
+            <a href="mailto:varkalasaicharan@gmail.com" class="bg-slate-800 hover:bg-slate-700 px-6 py-4 rounded-xl border border-slate-700 transition">
+                <i class="fas fa-envelope text-sky-400 mr-2"></i> varkalasaicharan@gmail.com
+            </a>
+            <a href="tel:+447765016165" class="bg-slate-800 hover:bg-slate-700 px-6 py-4 rounded-xl border border-slate-700 transition">
+                <i class="fas fa-phone text-sky-400 mr-2"></i> +44 7765 016165
+            </a>
+        </div>
+        <p class="text-slate-500 text-sm"><i class="fas fa-map-marker-alt mr-1"></i> London, United Kingdom</p>
+    </section>
+
+    <footer class="py-6 text-center text-slate-500 text-sm border-t border-slate-800">
+        <p>Built by Sai Charan Varkala &bull; Hosted on GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
